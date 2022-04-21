@@ -1,4 +1,4 @@
-const COLOR_BLUE = '#07c';
+const COLOR_BLUE = '#02BAFF';
 const COLOR_GREEN = '#3f714c';
 const COLOR_BACKGROUND = '#f6f6ff';
 

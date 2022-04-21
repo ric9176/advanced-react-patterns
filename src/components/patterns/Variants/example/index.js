@@ -24,7 +24,7 @@ const Button = styled("button")`
   margin: 16px;
   transition: all 0.2s ease;
   ${buttonStyle};
-  ${space};
+  // ${space};
 `;
 
 Button.defaultProps = {
@@ -39,7 +39,7 @@ const Wrapper = styled("div")`
 const VariantsExample = () => (
   <ThemeProvider theme={theme}>
     <Wrapper>
-      <Button margin={3}>Primary Button</Button>
+      <Button>Primary Button</Button>
       <Button variant="secondary">Secondary Button</Button>
       {/* <Box width="2em" height="2em"  mb={4} bg="blue"></Box> */}
     </Wrapper>
