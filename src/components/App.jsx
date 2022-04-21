@@ -61,7 +61,7 @@ class App extends React.Component {
               </a>
             </p>
             <hr />
-            <MenuItem link="/closure" toggleMenu={this.toggleMenu}>
+            {/* <MenuItem link="/closure" toggleMenu={this.toggleMenu}>
               1. Closure
             </MenuItem>
             <MenuItem link="/memoization" toggleMenu={this.toggleMenu}>
@@ -90,7 +90,13 @@ class App extends React.Component {
               8. Hook Reducer
             </MenuItem>
             <MenuItem link="/context" toggleMenu={this.toggleMenu}>
-              9. Context
+              9. Context */}
+            {/* </MenuItem> */}
+            <MenuItem link="/theming" toggleMenu={this.toggleMenu}>
+              1. Theming
+            </MenuItem>
+            <MenuItem link="/variants" toggleMenu={this.toggleMenu}>
+              2. Variants
             </MenuItem>
             <hr />
             <ul className="list-unstyled">
