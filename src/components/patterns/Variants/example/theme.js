@@ -2,7 +2,10 @@ const COLOR_BLUE = '#07c';
 const COLOR_GREEN = '#3f714c';
 const COLOR_BACKGROUND = '#f6f6ff';
 
+const space = [0, 4, 8, 16, 32, 64, 128, 256, 512]
+
 const theme = {
+  space,
   colors: {
     blue: COLOR_BLUE,
     green: COLOR_GREEN,
@@ -11,6 +14,7 @@ const theme = {
   buttons: {
     primary: {
       color: COLOR_BLUE,
+      // paddingBottom: space[3],
       border: `3px solid ${COLOR_BLUE}`,
       ':hover': {
         backgroundColor: COLOR_BLUE,
